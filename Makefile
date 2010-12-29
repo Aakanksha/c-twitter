@@ -1,7 +1,7 @@
 CC = gcc
-FILES = twitter.c
-OUT_EXE = twitter
-LIBS = curl-7.21.3
+FILES = src/twitter.c
+OUT_EXE = target/twitter
+LIBS = lib/curl-7.21.3
 
 build: $(FILES)
 	$(CC) -I $(LIBS) -o $(OUT_EXE) $(FILES)
