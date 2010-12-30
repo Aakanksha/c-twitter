@@ -1,9 +1,15 @@
-The purpose of this project:
-- learn c language by writing something in c
-- use external c libraries to experiment with linking
-- write something that I might actually want to do not just some math routine
-- the end goal is to be able to better contribute to open source projects, which will require more than just this project
+c-twitter - Update your Twitter status from the command-line
 
-This is not meant to be an application actually used by anyone other than me to update my own twitter status, though I suppose once I am done you could...
+This project is only designed for my use. Although, I suppose once I am done others could learn by what I have done.
+
+The features of this project:
+- Authenticate with Twitter over OAuth
+- Update your twitter status
+
+The goals of this project:
+- get experience writing/learning c by writing an application
+- use external c libraries to experiment with compiling, linking, and building
+- choose an interesting real like problem to solve (one that I might actually want to use rather than just some math routine)
+- the end goal is to be able to better contribute to open source projects that are written in c, in particular nodejs
 
 See the TODO file for my progress on this project.
