@@ -1,0 +1,18 @@
+TODO (in order to complete)
+=====================================================================================
+- Change lib folder to deps folder (standing for dependencies, modeled after nodejs project)
+- Add liboauth to project
+- Build with liboauth
+- Create a simplest OAuth app
+- Implement Twitter specific logic
+- Add doxygen to project for documentation
+
+COMPLETED (in order last completed)
+=====================================================================================
+- Find an OAuth library in c
+- Better understanding of compiling and linking process
+- Compiled app on Cygwin
+- POST request and echo data in ruby app
+- GET request to Sinatra web server
+- Link to libcurl library
+- Get input from stdin
