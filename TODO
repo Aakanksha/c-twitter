@@ -1,5 +1,7 @@
 TODO (in order to complete)
 =====================================================================================
+- Read intro to OAuth
+- Learn how example oauth app works
 - Implement initial Twitter api request
 - Add real Twitter specific logic
 - Add doxygen to project for documentation
