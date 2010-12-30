@@ -19,3 +19,6 @@ http://curl.haxx.se/mail/archive-2009-01/0088.html
 
 Implementing documentation system:
 http://www.stack.nl/~dimitri/doxygen/starting.html
+
+- Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
+- Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
