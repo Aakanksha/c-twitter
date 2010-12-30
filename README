@@ -12,6 +12,9 @@ ROADMAP
 [x] Link to libcurl library
 [x] GET request to Sinatra web server
 [x] POST request and echo data in ruby app
+[x] Compiled app on Cygwin
+[x] Better understanding of compiling and linking process
+[ ] Add doxygen support
 [ ] Find a easy to use OAuth library
 [ ] Link to OAuth library
 [ ] Find a way to test OAuth communication
@@ -28,3 +31,13 @@ Twitter Docs:
 
 Twitter recommended OAuth lib:
 - http://liboauth.sourceforge.net/
+
+Problem compiling on Cygwin:
+http://cygwin.com/ml/cygwin/2004-11/msg00289.html
+http://curl.haxx.se/mail/archive-2009-01/0088.html
+
+Implementing documentation system:
+http://www.stack.nl/~dimitri/doxygen/starting.html
+
+Compiling and install cUrl:
+http://curl.haxx.se/docs/install.html
