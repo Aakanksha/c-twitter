@@ -14,16 +14,20 @@ ROADMAP
 [x] POST request and echo data in ruby app
 [x] Compiled app on Cygwin
 [x] Better understanding of compiling and linking process
-[ ] Add doxygen support
-[ ] Find a easy to use OAuth library
-[ ] Link to OAuth library
-[ ] Find a way to test OAuth communication
+[x] Find an OAuth library in c
+[ ] Add liboauth to project
+[ ] Build with liboauth
+[ ] Create a simplest OAuth app
 [ ] Implement Twitter specific logic
+[ ] Add doxygen to project for documentation
 
 NOTES
 ======================================================================================
 Learning about linking libraries:
 - http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+
+Compiling and install cUrl:
+http://curl.haxx.se/docs/install.html
 
 Twitter Docs:
 - http://dev.twitter.com/doc
@@ -38,6 +42,3 @@ http://curl.haxx.se/mail/archive-2009-01/0088.html
 
 Implementing documentation system:
 http://www.stack.nl/~dimitri/doxygen/starting.html
-
-Compiling and install cUrl:
-http://curl.haxx.se/docs/install.html
