@@ -6,39 +6,4 @@ The purpose of this project:
 
 This is not meant to be an application actually used by anyone other than me to update my own twitter status, though I suppose once I am done you could...
 
-ROADMAP
-=====================================================================================
-[x] Get input from stdin
-[x] Link to libcurl library
-[x] GET request to Sinatra web server
-[x] POST request and echo data in ruby app
-[x] Compiled app on Cygwin
-[x] Better understanding of compiling and linking process
-[x] Find an OAuth library in c
-[ ] Add liboauth to project
-[ ] Build with liboauth
-[ ] Create a simplest OAuth app
-[ ] Implement Twitter specific logic
-[ ] Add doxygen to project for documentation
-
-NOTES
-======================================================================================
-Learning about linking libraries:
-- http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
-
-Compiling and install cUrl:
-http://curl.haxx.se/docs/install.html
-
-Twitter Docs:
-- http://dev.twitter.com/doc
-- http://dev.twitter.com/pages/auth
-
-Twitter recommended OAuth lib:
-- http://liboauth.sourceforge.net/
-
-Problem compiling on Cygwin:
-http://cygwin.com/ml/cygwin/2004-11/msg00289.html
-http://curl.haxx.se/mail/archive-2009-01/0088.html
-
-Implementing documentation system:
-http://www.stack.nl/~dimitri/doxygen/starting.html
+See the TODO file for my progress on this project.

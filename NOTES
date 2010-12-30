@@ -1,0 +1,21 @@
+NOTES (things I am learning along the way)
+======================================================================================
+Learning about linking libraries:
+- http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+
+Compiling and install cUrl:
+http://curl.haxx.se/docs/install.html
+
+Twitter Docs:
+- http://dev.twitter.com/doc
+- http://dev.twitter.com/pages/auth
+
+Twitter recommended OAuth lib:
+- http://liboauth.sourceforge.net/
+
+Problem compiling on Cygwin:
+http://cygwin.com/ml/cygwin/2004-11/msg00289.html
+http://curl.haxx.se/mail/archive-2009-01/0088.html
+
+Implementing documentation system:
+http://www.stack.nl/~dimitri/doxygen/starting.html
