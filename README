@@ -2,11 +2,29 @@ The purpose of this project:
 - learn c language by writing something in c
 - use external c libraries to experiment with linking
 - write something that I might actually want to do not just some math routine
-- the end goal is to be able to better contribute to open source projects
+- the end goal is to be able to better contribute to open source projects, which will require more than just this project
 
-This is not meant to be an application actually used by anyone other than me to update their twitter status though I suppose once I am done you could...
+This is not meant to be an application actually used by anyone other than me to update my own twitter status, though I suppose once I am done you could...
+
+ROADMAP
+=====================================================================================
+[x] Get input from stdin
+[x] Link to libcurl library
+[x] GET request to Sinatra web server
+[x] POST request and echo data in ruby app
+[ ] Find a easy to use OAuth library
+[ ] Link to OAuth library
+[ ] Find a way to test OAuth communication
+[ ] Implement Twitter specific logic
 
 NOTES
 ======================================================================================
 Learning about linking libraries:
-http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+- http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+
+Twitter Docs:
+- http://dev.twitter.com/doc
+- http://dev.twitter.com/pages/auth
+
+Twitter recommended OAuth lib:
+- http://liboauth.sourceforge.net/
