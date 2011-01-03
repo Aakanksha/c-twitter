@@ -1,17 +1,18 @@
 NOTES (things I am learning along the way)
 ======================================================================================
+
+------------------------------------
+	C
+------------------------------------
+
+- Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
+- Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
+
 Learning about linking libraries:
 - http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
 
 Compiling and install cUrl:
 http://curl.haxx.se/docs/install.html
-
-Twitter Docs:
-- http://dev.twitter.com/doc
-- http://dev.twitter.com/pages/auth
-
-Twitter recommended OAuth lib:
-- http://liboauth.sourceforge.net/
 
 Problem compiling on Cygwin:
 http://cygwin.com/ml/cygwin/2004-11/msg00289.html
@@ -20,5 +21,32 @@ http://curl.haxx.se/mail/archive-2009-01/0088.html
 Implementing documentation system:
 http://www.stack.nl/~dimitri/doxygen/starting.html
 
-- Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
-- Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
+C OAuth lib (twitter recommended):
+- http://liboauth.sourceforge.net/
+
+------------------------------------
+	Twitter
+------------------------------------
+
+Twitter Docs:
+- http://dev.twitter.com/doc
+- http://dev.twitter.com/pages/auth
+- http://apiwiki.twitter.com/w/page/22554643/Authentication
+- http://apiwiki.twitter.com/w/page/22554657/OAuth-Examples (examples)
+
+Using OAuth with non-browser app:
+1. The application uses oauth/request_token to obtain a request token from twitter.com.
+2. The application directs the user to oauth/authorize on twitter.com.
+3. After obtaining approval from the user, a prompt on twitter.com will display a 7 digit PIN.
+4. The user is instructed to copy this PIN and return to the appliction.
+5. The application will prompt the user to enter the PIN from step 4.
+6. The application uses the PIN as the value for the oauth_verifier parameter in a call to oauth/access_token which will verify the PIN and exchange a request_token for an access_token.
+7. Twitter will return an access_token for the application to generate subsequent OAuth signatures.
+
+------------------------------------
+	OAuth
+------------------------------------
+
+- http://oauth.net
+- http://tools.ietf.org/html/rfc5849
+- http://hueniverse.com/oauth/
