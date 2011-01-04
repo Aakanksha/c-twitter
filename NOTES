@@ -46,7 +46,7 @@ Problems compiling on Cygwin:
 - http://curl.haxx.se/mail/archive-2009-01/0088.html
 
 Problem with Git / Cygwin:
-- I had trouble with pulling from Github earlier today. After searching around, I found that I needed to blow away my local Git copy. Not cool. I wish I had kept the error message. I should look tomorrow for the message. 
+- I had trouble with pulling from Github earlier today. Error was: early EOFs, http://support.github.com/discussions/repos/4223-git-clone-fails-remote-hung-up-unexpectedly-eof-index-pack-failed
 
 ------------------------------------
 	Twitter

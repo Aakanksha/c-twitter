@@ -1,6 +1,5 @@
 TODO (in order to complete)
 =====================================================================================
-- Look in broswer history for Git error solution
 - Learn how to create and sign OAuth requests by reading docs and making an example
 - Read through liboauth codebase
 - Implement initial Twitter api request with "Out of Band" flow
@@ -10,6 +9,7 @@ TODO (in order to complete)
 
 COMPLETED (in order last completed)
 =====================================================================================
+- Look in broswer history for Git error solution - early EOFs
 - Learned how to authenticate over OAuth to Twitter when coding for a desktop application - "Out of Band" method
 - Read intro to OAuth
 - Create simple OAuth app
