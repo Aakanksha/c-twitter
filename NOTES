@@ -5,24 +5,26 @@ NOTES (things I am learning along the way)
 	C
 ------------------------------------
 
-- Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
+c compiling / linking:
+- Excellent reading on linking: http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+- When referencing .h files in the .c files they are there for the compiler not in the PHP include sense (which is a direct file include)
+- The actual compiled shared libraries (.so and .a) for the os at /usr/lib
+- If you need to reference a library that is not in the default reference path (how you find the default paths?) you need to add the -l<name> to the linker
 - Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
-
-Learning about linking libraries:
-- http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
 
 Compiling and install cUrl:
 http://curl.haxx.se/docs/install.html
 
-Problem compiling on Cygwin:
+Problems compiling on Cygwin:
 http://cygwin.com/ml/cygwin/2004-11/msg00289.html
 http://curl.haxx.se/mail/archive-2009-01/0088.html
 
-Implementing documentation system:
+Doxygen (documentation in c):
 http://www.stack.nl/~dimitri/doxygen/starting.html
 
-C OAuth lib (twitter recommended):
+liboauth (twitter recommended OAuth c library):
 - http://liboauth.sourceforge.net/
+- Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
 
 ------------------------------------
 	Twitter
