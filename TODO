@@ -2,6 +2,7 @@ TODO (in order to complete)
 =====================================================================================
 - Look in broswer history for Git error solution
 - Learn how to create and sign OAuth requests by reading docs and making an example
+- Read through liboauth codebase
 - Implement initial Twitter api request with "Out of Band" flow
 - Figure out a clever user flow to retrieve oob pin from Twitter
 - Add real Twitter specific logic
