@@ -9,7 +9,7 @@ TODO (in order to complete)
 
 COMPLETED (in order last completed)
 =====================================================================================
-- Learned how to authenticate with Twitter when designed a desktop application over OAuth - "Out of Band" method
+- Learned how to authenticate over OAuth to Twitter when coding for a desktop application - "Out of Band" method
 - Read intro to OAuth
 - Create simple OAuth app
 - Build with liboauth
