@@ -6,11 +6,26 @@ NOTES (things I am learning along the way)
 ------------------------------------
 
 c compiling / linking:
-- Excellent reading on linking: http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+- Excellent article on compiling and linking in c: http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
 - When referencing .h files in the .c files they are there for the compiler not in the PHP include sense (which is a direct file include)
 - The actual compiled shared libraries (.so and .a) for the os at /usr/lib
 - If you need to reference a library that is not in the default reference path (how you find the default paths?) you need to add the -l<name> to the linker
 - Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
+
+command-line tools for c:
+	// compiles files
+	gcc -o <output> <file1.c> <file2.c> -L<libdir> -l<lib1> -l<lib2>
+	gcc -c <file1.c> -> file1.o // create object files
+
+	// gnu linker
+	ld
+
+	// get a list of files in a library
+	ar -t <file1.a>
+
+	// get a list of dependencies
+	ldd <library1>
+
 
 Compiling and install cUrl:
 - http://curl.haxx.se/docs/install.html
