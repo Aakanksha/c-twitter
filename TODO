@@ -11,7 +11,7 @@ COMPLETED (in order last completed)
 =====================================================================================
 - Learned how to authenticate with Twitter when designed a desktop application over OAuth - "Out of Band" method
 - Read intro to OAuth
-- Create a simplest OAuth app
+- Create simple OAuth app
 - Build with liboauth
 - Setup Twitter app account and received API info
 - Installed OAuth library (needed sudo laconfig)
