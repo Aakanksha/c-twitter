@@ -12,17 +12,26 @@ c compiling / linking:
 - If you need to reference a library that is not in the default reference path (how you find the default paths?) you need to add the -l<name> to the linker
 - Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
 
+Understanding pointers and variables:
+- See "Variables" and "Pointers" at: http://www.cprogramming.com/reference/
+- Read this helpful article for understanding pointers and memory management: http://theocacao.com/document.page/234
+
+Working with strings:
+- most helpful line I have found: To get the address of an array, you simply use the array name, which stores the memory location of the first value in the array. Note that while using the name of the array causes it to act like a pointer, unlike a regular pointer, it is constant.
+	Example:
+		char *name = "hello"; // declaring a pointer type which is a array with characters, the astrick(*) is defining the type as pointer
+		name; // pointer by default, not necessary to use *name; for dereferencing since the variable is the pointer and the brakets grab the value unlike normal types
+		// derefrencing isn't necessary, to get the first letter you just
+		name[0]; // grabs the first element in the array's value
+
 command-line tools for c:
 	// compiles files
 	gcc -o <output> <file1.c> <file2.c> -L<libdir> -l<lib1> -l<lib2>
 	gcc -c <file1.c> -> file1.o // create object files
-
 	// gnu linker
 	ld
-
 	// get a list of files in a library
 	ar -t <file1.a>
-
 	// get a list of dependencies
 	ldd <library1>
 
