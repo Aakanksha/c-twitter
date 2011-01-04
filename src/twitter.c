@@ -1,3 +1,7 @@
+/**
+ * 	@file	twitter.c
+ * 	@brief	a command-line utility to update your twitter status
+ */
 #include <stdio.h>
 #include <string.h>
 #include <curl/curl.h>
