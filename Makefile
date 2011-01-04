@@ -8,3 +8,6 @@ LIBS = -lcurl
 build: $(FILES)
 	if [ ! -d "target" ]; then mkdir target; fi
 	$(CC) -o $(OUT_EXE) $(FILES) $(LIBDIRS) $(LIBS) 
+
+docs:
+	doxygen Doxyfile
