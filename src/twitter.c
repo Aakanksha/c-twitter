@@ -2,9 +2,9 @@
 #include <string.h>
 #include <curl/curl.h>
 
-void 					getKeyboardInput 	( char* a );
-const int 		inputSize = 			300;
-void 					get								(char* param);
+void getKeyboardInput ( char* a );
+const int inputSize = 300;
+void get (char* param);
 
 CURL *curl;
 CURLcode res;
