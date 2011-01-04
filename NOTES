@@ -13,18 +13,25 @@ c compiling / linking:
 - Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
 
 Compiling and install cUrl:
-http://curl.haxx.se/docs/install.html
-
-Problems compiling on Cygwin:
-http://cygwin.com/ml/cygwin/2004-11/msg00289.html
-http://curl.haxx.se/mail/archive-2009-01/0088.html
+- http://curl.haxx.se/docs/install.html
 
 Doxygen (documentation in c):
-http://www.stack.nl/~dimitri/doxygen/starting.html
+- http://www.stack.nl/~dimitri/doxygen/starting.html
 
 liboauth (twitter recommended OAuth c library):
 - http://liboauth.sourceforge.net/
 - Compiling OAuth Exmaples wouldn't build until I ran: sudo lsconfig
+
+------------------------------------
+	Cygwin
+------------------------------------
+
+Problems compiling on Cygwin:
+- http://cygwin.com/ml/cygwin/2004-11/msg00289.html
+- http://curl.haxx.se/mail/archive-2009-01/0088.html
+
+Problem with Git / Cygwin:
+- I had trouble with pulling from Github earlier today. After searching around, I found that I needed to blow away my local Git copy. Not cool. I wish I had kept the error message. I should look tomorrow for the message. 
 
 ------------------------------------
 	Twitter
@@ -49,6 +56,13 @@ Using OAuth with non-browser app:
 	OAuth
 ------------------------------------
 
+General:
 - http://oauth.net
 - http://tools.ietf.org/html/rfc5849
 - http://hueniverse.com/oauth/
+
+Cryptography / Signing (Twitter uses HMAC-SHA-1):
+- Hash-based Message Authentication Code or HMAC is only as strong as the cryptographic algorithm of the underlying hash function
+- HMAC, http://en.wikipedia.org/wiki/HMAC (same as MAC but adds a secret key)
+- MAC, http://en.wikipedia.org/wiki/Message_authentication_code (ensures data integrity and authorship)
+- SHA-1, http://en.wikipedia.org/wiki/SHA-1
