@@ -14,7 +14,7 @@ COMPLETED (in order last completed)
 - Create a simplest OAuth app
 - Build with liboauth
 - Setup Twitter app account and received API info
-- Installed OAuth library (needed suto laconfig)
+- Installed OAuth library (needed sudo laconfig)
 - Add liboauth to project
 - Change lib folder to deps folder (standing for dependencies, modeled after nodejs project)
 - Find an OAuth library in c
