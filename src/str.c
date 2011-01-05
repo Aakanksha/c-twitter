@@ -1,3 +1,8 @@
+/**
+ *  @brief creating gets and puts method modeled after ruby methods
+ *  @file str.c
+ *  @author Buddy Williams <buddywilliams@gmail.com>
+ */
 #include <stdio.h>
 #include <string.h>
 

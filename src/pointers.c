@@ -1,3 +1,8 @@
+/**
+ *  @brief experimenting with c pointers
+ *  @file pointers.c
+ *  @author Buddy Williams <buddywilliams@gmail.com>
+ */
 #include <stdio.h>
 
 // absolutely necessary
