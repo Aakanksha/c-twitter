@@ -1,4 +1,5 @@
 CC = gcc
+DOXYGEN = doxygen
 FILES = src/twitter.c
 OUT_EXE = target/twitter
 #HEADERDIRS = -Ilib/curl-7.21.3/include
@@ -9,5 +10,5 @@ build: $(FILES)
 	if [ ! -d "target" ]; then mkdir target; fi
 	$(CC) -o $(OUT_EXE) $(FILES) $(LIBDIRS) $(LIBS) 
 
-docs:
-	doxygen Doxyfile
+doc:
+	$(DOXYGEN) Doxyfile
