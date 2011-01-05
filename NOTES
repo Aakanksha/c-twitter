@@ -5,6 +5,9 @@ NOTES (things I am learning along the way)
 	C
 ------------------------------------
 
+General:
+- Said to be the best book for learning c: http://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=wl_it_dp_o?ie=UTF8&coliid=I1FB815BF2216Z&colid=24SAYWVYQ7SWK
+
 c compiling / linking:
 - Excellent article on compiling and linking in c: http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
 - When referencing .h files in the .c files they are there for the compiler not in the PHP include sense (which is a direct file include)
@@ -12,9 +15,10 @@ c compiling / linking:
 - If you need to reference a library that is not in the default reference path (how you find the default paths?) you need to add the -l<name> to the linker
 - Also adding this may work: gcc curlexample.c -L/usr/lib/libcurl.so -lcurl
 
-Understanding pointers and variables:
-- See "Variables" and "Pointers" at: http://www.cprogramming.com/reference/
+Variables, Pointers and Memory allocation:
+- http://staff.um.edu.mt/csta1/courses/lectures/csa2060/c8a.html
 - Read this helpful article for understanding pointers and memory management: http://theocacao.com/document.page/234
+- See "Variables" and "Pointers" at: http://www.cprogramming.com/reference/
 
 Working with strings:
 - most helpful line I have found: To get the address of an array, you simply use the array name, which stores the memory location of the first value in the array. Note that while using the name of the array causes it to act like a pointer, unlike a regular pointer, it is constant.
