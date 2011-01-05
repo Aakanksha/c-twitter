@@ -66,6 +66,14 @@ Twitter Docs:
 - http://dev.twitter.com/pages/auth
 - http://apiwiki.twitter.com/w/page/22554643/Authentication
 - http://apiwiki.twitter.com/w/page/22554657/OAuth-Examples (examples)
+- http://apiwiki.twitter.com/w/page/22554727/Twitter-REST-API-Method:-oauth-request_token
+- http://apiwiki.twitter.com/w/page/22554724/Twitter-REST-API-Method:-oauth-access_token
+
+Twitter OOB Method:
+- http://apiwiki.twitter.com/w/page/22554726/Twitter-REST-API-Method:-oauth-authorize
+
+Authorization Header:
+- http://oauth.net/core/1.0/#auth_header
 
 Using OAuth with non-browser app:
 1. The application uses oauth/request_token to obtain a request token from twitter.com.
