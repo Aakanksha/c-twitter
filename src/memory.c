@@ -25,3 +25,34 @@ char *foo(char *p)
 	return q;
 }
 
+dynamicString()
+{
+	char *a = NULL;
+	a = malloc( sizeof(char) * strlen("hello world") );
+
+	if(!a) {
+		exit(1);
+	}
+
+	strcpy( a, "hello world" );
+	printf( "result: %s\n", a );
+}
+
+strTest ()
+{
+	char pin[255];
+	char access[255];
+	char *token = "to";
+
+	printf( "Value: %s\n", token );
+	printf( "Token size: %i\n", sizeof(token) );
+	printf( "String length: %i\n", strlen(token) );
+	printf( "Token address: %p\n", &token );
+
+	getToken( &token );
+
+	printf( "Value: %s\n", token );
+	printf( "Token size: %i\n", sizeof(token) );
+	printf( "String length: %i\n", strlen(token) );
+	printf( "Token address: %p\n", &token );
+}

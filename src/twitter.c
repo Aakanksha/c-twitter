@@ -5,6 +5,8 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 // ------------------------------------------
 // Process of making a Twitter post, finally!
@@ -26,4 +28,24 @@
 
 main ()
 {
+}
+
+getToken( char **token )
+{
+	//Url: http://api.twitter.com/oauth/request_token
+	//strcpy(token, "token value");
+}
+
+launchBrowser()
+{
+	//Url: http://api.twitter.com/oauth/authorize
+}
+
+getPin()
+{
+}
+
+getAccess( char *pin, char *access )
+{
+	//Url: http://api.twitter.com/oauth/access_token
 }
