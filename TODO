@@ -1,14 +1,16 @@
 TODO (in order to complete)
 =====================================================================================
 - Learn how to create and sign OAuth requests by reading docs and making an example
-- Read through liboauth codebase
+- Learn how to launch a browser from c
 - Implement initial Twitter api request with "Out of Band" flow
-- Figure out a clever user flow to retrieve oob pin from Twitter
 - Add real Twitter specific logic
-- Add doxygen to project for documentation
 
 COMPLETED (in order last completed)
 =====================================================================================
+- Design twitter.c code by listing steps to update Twitter status
+- Figure out a clever user flow to retrieve oob pin from Twitter (launch a browser)
+- Add doxygen to project for documentation
+- Read through liboauth codebase
 - Look in broswer history for Git error solution - early EOFs
 - Learned how to authenticate over OAuth to Twitter when coding for a desktop application - "Out of Band" method
 - Read intro to OAuth
