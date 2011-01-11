@@ -1,13 +1,25 @@
 TODO (in order to complete)
 =====================================================================================
+- Read through K&R Chapter 2
+- Start blog on my journey in learning the c language, motivations: contributing to open source
+- Read through K&R Chapter 3
+- Read through K&R Chapter 4
+- Read through K&R Chapter 5
+- Read through K&R Chapter 6
+- Read through K&R Chapter 7
+- Read through K&R Chapter 8
 - Learn how to create and sign OAuth requests by reading docs and making an example
 - Learn how to launch a browser from c
 - Implement initial Twitter api request with "Out of Band" flow
-- Add real Twitter specific logic
-- Buy book: C Programming Language (2nd Edition)
+- Blog: prompting to learn c, nodejs video
+- Blog: learning how to compile and link, good article
+- Blog: learning about pointers and memory management, and then learning more
+- Blog: reading the K&R book
 
 COMPLETED (in order last completed)
 =====================================================================================
+- Read through K&R Chapter 1
+- Buy book: C Programming Language (2nd Edition), found PDF version for free
 - Design twitter.c code by listing steps to update Twitter status
 - Figure out a clever user flow to retrieve oob pin from Twitter (launch a browser)
 - Add doxygen to project for documentation
