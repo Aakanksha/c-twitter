@@ -1,13 +1,12 @@
 TODO (in order to complete)
 =====================================================================================
-- Read through K&R Chapter 2
+- Read K&R Chapter 3 - Control Flow
+- Read K&R Chapter 4 - Functions and Program Structure
+- Read K&R Chapter 5 - Pointers and Arrays
+- Read K&R Chapter 6 - Structures
+- Read K&R Chapter 7 - Input and Output
+- Read K&R Chapter 8 - The UNIX System Interface
 - Start blog on my journey in learning the c language, motivations: contributing to open source
-- Read through K&R Chapter 3
-- Read through K&R Chapter 4
-- Read through K&R Chapter 5
-- Read through K&R Chapter 6
-- Read through K&R Chapter 7
-- Read through K&R Chapter 8
 - Learn how to create and sign OAuth requests by reading docs and making an example
 - Learn how to launch a browser from c
 - Implement initial Twitter api request with "Out of Band" flow
@@ -19,8 +18,9 @@ TODO (in order to complete)
 
 COMPLETED (in order last completed)
 =====================================================================================
-- Read through K&R Chapter 1
-- Buy book: C Programming Language (2nd Edition), found PDF version for free
+- Read K&R Chapter 2 - Types, Operators, and Expressions
+- Read K&R Chapter 1 - Tutorial Introduction
+- Buy book: C Programming Language (2nd Edition), found PDF version for free aka K&R
 - Design twitter.c code by listing steps to update Twitter status
 - Figure out a clever user flow to retrieve oob pin from Twitter (launch a browser)
 - Add doxygen to project for documentation
