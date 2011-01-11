@@ -17,3 +17,11 @@ The goals of this project:
 7. blog about my experience so that I may share it with others
 
 See the TODO file for my progress on this project.
+
+(this project is functional, yet)
+
+Getting started (from linux command-line):
+	git clone git://github.com/buwilliams/c-twitter.git
+	cd c-twitter
+	make
+	./target/twitter
