@@ -5,7 +5,7 @@ This project is only designed for my use. Although, I suppose once I am done oth
 The features of this project:
 - Authenticate with Twitter over OAuth
 - Update your twitter status
-- Potentially add more Twitter funcationality
+(I may add more Twitter support)
 
 The goals of this project:
 1. be able to contribute to open source projects written in c such as nodejs
