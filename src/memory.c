@@ -13,7 +13,8 @@ main()
 	free(a);
 	b = foo("Goodbye");
 	printf("1:%s\n", b);
-	//free(b); 
+	//comment out free b and var a will point to b
+	//free(b);
 	printf("From main: %s %s\n", a, b);
 }
 
