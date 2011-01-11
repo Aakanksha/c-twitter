@@ -43,6 +43,7 @@ launchBrowser()
 
 getPin()
 {
+	//launch browser
 }
 
 getAccess( char *pin, char *access )
