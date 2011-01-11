@@ -5,11 +5,15 @@ This project is only designed for my use. Although, I suppose once I am done oth
 The features of this project:
 - Authenticate with Twitter over OAuth
 - Update your twitter status
+- Potentially add more Twitter funcationality
 
 The goals of this project:
-- get experience writing/learning c by writing an application
-- use external c libraries to experiment with compiling, linking, and building
-- choose an interesting real like problem to solve (one that I might actually want to use rather than just some math routine)
-- the end goal is to be able to better contribute to open source projects that are written in c, in particular nodejs
+1. be able to contribute to open source projects written in c such as nodejs
+2. solve a modern & interesting problem (one that I might be asked to solve on the job)
+3. gain knowledge in a harder language than ruby or javascript
+4. get experience writing c applications
+5. read C Programming Language (2nd Edition) aka K&R
+6. gain a deeper and more historical understanding of programming
+7. blog about my experience so that I may share it with others
 
 See the TODO file for my progress on this project.
