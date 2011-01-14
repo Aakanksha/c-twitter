@@ -103,3 +103,11 @@ Cryptography / Signing (Twitter uses HMAC-SHA-1):
 - HMAC, http://en.wikipedia.org/wiki/HMAC (same as MAC but adds a secret key)
 - MAC, http://en.wikipedia.org/wiki/Message_authentication_code (ensures data integrity and authorship)
 - SHA-1, http://en.wikipedia.org/wiki/SHA-1
+
+------------------------------------
+	nodeJS
+------------------------------------
+
+General:
+- After reading the code in nodeJS I found that the project includes both C and C++ code. I may need to read up on C++. The good news is that C++ is based on C with a few additions and stricts syntax rules and they are not difficult to over come
+- Source code: https://github.com/ry/node
